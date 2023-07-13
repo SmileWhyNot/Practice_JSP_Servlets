@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f07c7ef6-2599-4c44-b5d1-87893737577a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testee/app/model/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testee/app/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testee/app/entities/User.java" afterDir="false" />
+    <list default="true" id="f07c7ef6-2599-4c44-b5d1-87893737577a" name="Changes" comment="Add user &amp; UserModel">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testee/app/servlets/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testee/app/servlets/AddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/add.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,11 +176,23 @@
       <updated>1688749310287</updated>
       <workItem from="1688749311728" duration="7658000" />
       <workItem from="1689077616478" duration="11198000" />
-      <workItem from="1689254021758" duration="9582000" />
+      <workItem from="1689254021758" duration="10072000" />
     </task>
+    <task id="LOCAL-00001" summary="Add user &amp; UserModel">
+      <created>1689270276899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689270276900</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add user &amp; UserModel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add user &amp; UserModel" />
   </component>
 </project>
