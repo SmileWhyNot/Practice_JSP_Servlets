@@ -1,5 +1,7 @@
 package com.example.testee.app.entities;
 
+import java.util.Objects;
+
 public class User {
     private String name;
     private String password;
@@ -26,5 +28,32 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + (password != null ? password.hashCode() : 0);
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || obj.getClass() != getClass()) return false;
+
+        User user = (User) obj;
+
+        if (!Objects.equals(name, user.name)) return false;
+        return Objects.equals(password, user.password);
+
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }
